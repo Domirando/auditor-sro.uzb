@@ -7,11 +7,14 @@
     width: -moz-fit-content;  
     width: fit-content;
 }
-.items-menu{
+.items-container{
     display: none;
     height: 150px;
 }
-.menu-item:hover + .items-menu{
+.menu-item:hover + .items-container{
     display: block;
     cursor: pointer;
+}
+.user-menu{
+    display: flex;
 }
