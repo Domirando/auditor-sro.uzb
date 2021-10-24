@@ -84,6 +84,10 @@ li{
     display: none;
     flex-flow: column wrap;
 }
+#second{
+    display: flex;
+    flex-flow: column wrap;
+}
 #mainItem-1:hover{
     cursor: pointer;
 }
@@ -122,4 +126,3 @@ a{
     text-decoration: rgb(6, 65, 124);
     text-align: left;
 }
-
