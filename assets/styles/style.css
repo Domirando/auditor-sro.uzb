@@ -85,9 +85,12 @@ li{
     flex-flow: column wrap;
 }
 #mainItem-1:hover{
-    display: flex;
     cursor: pointer;
 }
+#mainItem-1:hover + .first{
+        display: flex;
+}
+
 .item-menu{
     display: flex;
     flex-flow: row wrap;
