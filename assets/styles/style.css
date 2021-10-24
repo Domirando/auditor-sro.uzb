@@ -80,7 +80,7 @@ li{
     text-decoration: rgb(6, 65, 124);
     text-align: left;
 }
-.mainItem-menu{
+.first{
     display: none;
     flex-flow: column wrap;
 }
