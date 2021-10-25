@@ -85,10 +85,10 @@ li{
     flex-flow: column wrap;
 }
 #second{
-    display: flex;
+    display: none;
     flex-flow: column wrap;
 }
-#mainItem-1:hover{
+.right-side>li:hover{
     cursor: pointer;
 }
 .item-menu{
@@ -98,7 +98,6 @@ li{
     background-color: #ffff;
     padding: 20px 40px;
     border-radius: 0px 0px 8px 8px;
-    align-items: center;
     justify-items: center;
     align-content: center;
     margin: 0px 40px;
