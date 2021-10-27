@@ -42,8 +42,11 @@ body{
     border-radius: 5px;
     padding: 0px 30px;
 }
+button:hover{
+    cursor: pointer;
+}
 .container{
-    padding: 18px 40px;
+    padding: 20px 40px;
 }
 header{
     background-color: #ffff;
@@ -167,4 +170,35 @@ a{
 }
 a:hover{
     color:rgb(57, 133, 209);
+}
+
+.menu-user{
+    display: flex;
+    flex-basis: row wrap;
+}
+
+.userMenu{
+    display: flex;
+    flex-basis: row wrap;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.userMenuText>h4{
+    color: #292929;
+    font-size: 14.08px;
+    line-height: 16px;
+    font-weight: 700;
+    margin-bottom: 11.5px;
+}
+.userMenuText>p{
+    color: #9b9b9b;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+.userMenu{
+    cursor: pointer;
 }
