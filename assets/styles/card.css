@@ -1,0 +1,20 @@
+.cardCont{
+    display: flex;
+    column-gap: 8px;
+    justify-content: space-between;
+}
+.card{
+    background-color: #fff;
+    height: 350px;
+    width: 450px;
+    position: relative;
+}
+.card-bottom{
+    display: flex;
+    flex-flow: column wrap;
+}
+.card-img{
+    background-color: #6699cc;
+    align-self: flex-end;
+    width: 300px;
+}
