@@ -1,6 +1,4 @@
 .container-fluid {
-  padding-right: 35px !important;
-  padding-left: 35px !important;
   max-width: 1480px;
 }
 .b-gallery.ph-block.ph-block--animated {
@@ -27,7 +25,7 @@
   padding: 0;
   z-index: 1;
 }
-.swiper-container-android .swiper-slide,
+.swiper-slide, 
 .swiper-wrapper {
   transform: translate3d(0px, 0, 0);
 }
@@ -78,6 +76,7 @@
   background-position: center;
   background-size: cover;
   border-radius: 10px;
+  position: relative;
 }
 .b-gallery__slide-content {
   position: absolute;
