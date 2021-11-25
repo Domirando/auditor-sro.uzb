@@ -1,30 +1,30 @@
-.menu-user{
-    display: flex;
-    flex-flow: row wrap;
+.menu-user {
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.userMenu{
-    display: flex;
-    flex-direction: row;
-    column-gap: 15px;
-    align-items: center;
-    justify-content: center;
-    padding-top: 8px;
+.userMenu {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8px;
 }
 
-.userMenuText>h4{
-    color: #292929;
-    font-size: 14.08px;
-    line-height: 16px;
-    font-weight: 700;
-    margin-bottom: 11.5px;
+.userMenuText > h4 {
+  color: #292929;
+  font-size: 14.08px;
+  line-height: 16px;
+  font-weight: 700;
+  margin-bottom: 11.5px;
 }
-.userMenuText>p{
-    color: #9b9b9b;
-    font-size: 12px;
-    line-height: 14px;
-    font-weight: 400;
+.userMenuText > p {
+  color: #9b9b9b;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
 }
-.userMenu{
-    cursor: pointer;
+.userMenu {
+  cursor: pointer;
 }

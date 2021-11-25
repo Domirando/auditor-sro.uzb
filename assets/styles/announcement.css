@@ -1,0 +1,213 @@
+.container-fluid {
+  padding-right: 35px !important;
+  padding-left: 35px !important;
+  max-width: 1480px;
+}
+.b-gallery.ph-block.ph-block--animated {
+  height: auto;
+  background-color: transparent;
+}
+.b-gallery.ph-block.ph-block--animated .swiper-container {
+  opacity: 1;
+}
+.b-gallery {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+}
+.b-gallery .swiper-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+  transform: translate3d(0px, 0, 0);
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+.swiper-container {
+  list-style: none;
+}
+.swiper-container-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+.b-gallery .swiper-slide {
+  overflow: hidden;
+}
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+.b-gallery__img:before {
+  content: "";
+  display: block;
+  background-color: #f2762e;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(-750px / 2 + 420px / 2);
+  left: -750px;
+  width: 750px;
+  height: 750px;
+  opacity: 0.5;
+  transition: all 0.7s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  z-index: 1;
+}
+.b-gallery__img {
+  height: 420px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.b-gallery__slide-content {
+  position: absolute;
+  top: 5.5rem;
+  left: 7%;
+  color: #fff;
+  max-width: 500px;
+  transform: translateX(50px);
+  -webkit-transform: translateX(50px);
+  opacity: 0;
+  z-index: 10;
+}
+.swiper-container-initialized .b-gallery__slide-content {
+  transition: all 0.5s ease 0.7s;
+  -webkit-transition: all 0.5s ease 0.7s;
+}
+.swiper-container-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+.b-gallery .swiper-slide {
+  overflow: hidden;
+}
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+.b-gallery__heading {
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+@media (max-width: 767px) {
+  .b-gallery__heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .b-gallery .btn-lg {
+    font-size: 0.75rem;
+    line-height: 38px;
+    height: 38px;
+    min-width: 158px;
+  }
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.btn-lg {
+  line-height: 60px;
+  height: 60px;
+  font-size: 1rem;
+  min-width: 250px;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color: #074c86;
+  border-color: #074c86;
+}
+.btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 200;
+  font-size: 0.75rem;
+  line-height: 48px;
+  height: 48px;
+  border-radius: 7px;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-width: 158px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.btn-group-lg > .btn,
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.b-gallery .swiper-slide {
+  overflow: hidden;
+}
+.b-gallery .swiper-slide.swiper-slide-active .b-gallery__slide-content {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  opacity: 1;
+}
+.b-gallery .swiper-slide.swiper-slide-active .b-gallery__img:before {
+  left: -65px;
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .b-gallery .swiper-slide.swiper-slide-active .b-gallery__img:before {
+    left: -400px;
+  }
+}
+@media (max-width: 575px) {
+  .b-gallery .swiper-slide.swiper-slide-active .b-gallery__img:before {
+    left: -500px;
+  }
+}
+@media (max-width: 767px) {
+  .b-gallery {
+    font-size: 0.88rem;
+  }
+}
+.swiper-container .swiper-notification {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1000;
+}
+.swiper-container {
+  list-style: none;
+}

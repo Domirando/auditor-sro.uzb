@@ -1,0 +1,24 @@
+{
+  "name": "auditor-sro.org",
+  "version": "1.0.0",
+  "description": "My first job project 🚀!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"./**/*.{js,jsx,html,css}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MaisieDev/auditor-sro.org.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaisieDev/auditor-sro.org/issues"
+  },
+  "homepage": "https://github.com/MaisieDev/auditor-sro.org#readme",
+  "dependencies": {
+    "prettier": "^2.4.1"
+  }
+}

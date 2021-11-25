@@ -1,299 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
     <title>Auditor</title>
-</head>
-<body>
-<header class="container">
-    <div class="title">
+  </head>
+  <body>
+    <header class="container">
+      <div class="title">
         <div class="leftSide-title">
-            <img src="./assets/icons/logo.svg" alt="">
-            <p>САМОРЕГУЛИРУЕМАЯ ОРГАНИЗАЦИЯ АУДИТОРОВ <br> АССОЦИАЦИЯ «СОДРУЖЕСТВО»</p>
-            <img src="./assets/icons/logo-ifac.svg" alt="">
+          <img src="./assets/icons/logo.svg" alt="" />
+          <p>
+            САМОРЕГУЛИРУЕМАЯ ОРГАНИЗАЦИЯ АУДИТОРОВ <br />
+            АССОЦИАЦИЯ «СОДРУЖЕСТВО»
+          </p>
+          <img src="./assets/icons/logo-ifac.svg" alt="" />
         </div>
         <button>Личный кабинет</button>
-    </div>
-    <hr>
-    <nav>
+      </div>
+      <hr />
+      <nav>
         <ul class="right-side">
-            <li onmouseover="showItemMenu('mainItem-1')">СРО ААС</li>
-            <li onmouseover="showItemMenu('mainItem-2')">Реестры</li>
-            <li onmouseover="showItemMenu('mainItem-3')">Членство</li>
-            <li onmouseover="showItemMenu('mainItem-4')">Контроль качества</li>
-            <li onmouseover="showItemMenu('mainItem-5')">Аудиторам</li>
-            <li onmouseover="showItemMenu('mainItem-6')">Повышение квалификации</li>
-            <li onmouseover="showItemMenu('mainItem-7')">Пресс-Центр</li>
-            <li onmouseover="showItemMenu('mainItem-8')">Мероприятия</li>
+          <li onmouseover="showItemMenu('mainItem-1')">СРО ААС</li>
+          <li onmouseover="showItemMenu('mainItem-2')">Реестры</li>
+          <li onmouseover="showItemMenu('mainItem-3')">Членство</li>
+          <li onmouseover="showItemMenu('mainItem-4')">Контроль качества</li>
+          <li onmouseover="showItemMenu('mainItem-5')">Аудиторам</li>
+          <li onmouseover="showItemMenu('mainItem-6')">
+            Повышение квалификации
+          </li>
+          <li onmouseover="showItemMenu('mainItem-7')">Пресс-Центр</li>
+          <li onmouseover="showItemMenu('mainItem-8')">Мероприятия</li>
         </ul>
         <div class="left-side">
-            <img src="./assets/icons/search.svg" alt="search">
+          <img src="./assets/icons/search.svg" alt="search" />
         </div>
-    </nav>
-</header>
-<div class="mainItem-menu" id="first">
-    <div class="item-menu">
+      </nav>
+    </header>
+    <div class="mainItem-menu" id="first">
+      <div class="item-menu">
         <ul>
-            <li><a href="#">Структура СРО ААС</a></li>
-            <li class="thin"><a href="#">Съезд</a></li>
-            <li class="thin"><a href="#">Генеральный директор</a></li>
-            <li class="thin"><a href="#">Комитеты и комиссии</a></li>
-            <li class="thin"><a href="#">Правление</a></li>
-            <li class="thin"><a href="#">Территориальные отделения</a></li>
+          <li><a href="#">Структура СРО ААС</a></li>
+          <li class="thin"><a href="#">Съезд</a></li>
+          <li class="thin"><a href="#">Генеральный директор</a></li>
+          <li class="thin"><a href="#">Комитеты и комиссии</a></li>
+          <li class="thin"><a href="#">Правление</a></li>
+          <li class="thin"><a href="#">Территориальные отделения</a></li>
         </ul>
         <ul>
-            <li><a href="#">Документы</a></li>
-            <li><a href="#">Стратегия развития</a></li>
-            <li><a href="#">Компенсационный фонд</a></li>
-            <li><a href="#">Компенсационный фонд</a></li>
-            <li><a href="#">Отчетность СРО ААС</a></li>
-            <li><a href="#">Работа с молодежью</a></li>
+          <li><a href="#">Документы</a></li>
+          <li><a href="#">Стратегия развития</a></li>
+          <li><a href="#">Компенсационный фонд</a></li>
+          <li><a href="#">Компенсационный фонд</a></li>
+          <li><a href="#">Отчетность СРО ААС</a></li>
+          <li><a href="#">Работа с молодежью</a></li>
         </ul>
         <ul>
-            <li><a href="#">Иски и заявления</a></li>
-            <li><a href="#">Фирменная символика</a></li>
-            <li><a href="#">Награды</a></li>
-            <li><a href="#">Контакты</a></li>
+          <li><a href="#">Иски и заявления</a></li>
+          <li><a href="#">Фирменная символика</a></li>
+          <li><a href="#">Награды</a></li>
+          <li><a href="#">Контакты</a></li>
         </ul>
-    </div>
-    <div class="item-menu">
+      </div>
+      <div class="item-menu">
         <a href="#" class="lastItems">
-            <img src="./assets/icons/phone.svg" alt="">
-            <p>Позвонить в СРО ААС</p>
+          <img src="./assets/icons/phone.svg" alt="" />
+          <p>Позвонить в СРО ААС</p>
         </a>
         <a href="#" class="lastItems">
-            <img src="./assets/images/location.png" width="40px" height="40px" alt="">
-            <p>Позвонить в СРО ААС</p>
+          <img
+            src="./assets/images/location.png"
+            width="40px"
+            height="40px"
+            alt=""
+          />
+          <p>Позвонить в СРО ААС</p>
         </a>
         <a href="#" class="lastItems">
-            <img src="./assets/icons/plus.svg" alt="">
-            <p>Позвонить в СРО ААС</p>
+          <img src="./assets/icons/plus.svg" alt="" />
+          <p>Позвонить в СРО ААС</p>
         </a>
+      </div>
     </div>
-</div>
-<div class="mainItem-menu" id="second">
-        <div class="item-menu">
-            <ul>
-                <li><a href="#">Аудиторы</a></li>
-                <li><a href="#">Аудиторские организации</a></li>
-                <li><a href="#">Индивидуальные аудиторы</a></li>
-                <li><a href="#">Учебно-методические центры</a></li>
-                <li><a href="#">Выданные аттестаты аудитора</a></li>
-                <li><a href="#">Аннулированные аттестаты аудитора</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Аудиторы прекратившие членство</a></li>
-                <li><a href="#">Организации прекратившие членство</a></li>
-                <li><a href="#">Дисциплинарные меры к аудиторам</a></li>
-                <li><a href="#">Дисциплинарные меры к организациям</a></li>
-            </ul>
-        </div>
-        <div class="item-menu">
-            <a href="#" class="lastItems">
-                <img src="./assets/icons/edit.svg" alt="">
-                <p>Внести изменения в Реестр</p>
-            </a>
-            <a href="#" class="lastItems">
-                <img src="./assets/icons/file.svg" width="40px" height="40px" alt="">
-                <p>Получить выписку из Реестра</p>
-            </a>
-        </div>
-</div>
-<div class="mainItem-menu" id="third">
-    <div class="item-menu">
+    <div class="mainItem-menu" id="second">
+      <div class="item-menu">
         <ul>
-            <li><a href="#">Вступить</a></li>
-            <li><a href="#">Взносы</a></li>
+          <li><a href="#">Аудиторы</a></li>
+          <li><a href="#">Аудиторские организации</a></li>
+          <li><a href="#">Индивидуальные аудиторы</a></li>
+          <li><a href="#">Учебно-методические центры</a></li>
+          <li><a href="#">Выданные аттестаты аудитора</a></li>
+          <li><a href="#">Аннулированные аттестаты аудитора</a></li>
         </ul>
         <ul>
-            <li><a href="#">Изменение статуса</a></li>
-            <li><a href="#">Свидетельство о членстве</a></li>
+          <li><a href="#">Аудиторы прекратившие членство</a></li>
+          <li><a href="#">Организации прекратившие членство</a></li>
+          <li><a href="#">Дисциплинарные меры к аудиторам</a></li>
+          <li><a href="#">Дисциплинарные меры к организациям</a></li>
         </ul>
-        <ul>
-            <li><a href="#">Отчетность членов в СРО ААС</a></li>
-        </ul>
-    </div>
-    <div class="item-menu">
+      </div>
+      <div class="item-menu">
         <a href="#" class="lastItems">
-            <img src="./assets/icons/plus.svg" alt="">
-            <p>Вступить в СРО ААС</p>
+          <img src="./assets/icons/edit.svg" alt="" />
+          <p>Внести изменения в Реестр</p>
         </a>
         <a href="#" class="lastItems">
-            <img src="./assets/icons/card.svg" width="40px" height="40px" alt="">
-            <p>Оплатить взносы</p>
+          <img
+            src="./assets/icons/file.svg"
+            width="40px"
+            height="40px"
+            alt=""
+          />
+          <p>Получить выписку из Реестра</p>
+        </a>
+      </div>
+    </div>
+    <div class="mainItem-menu" id="third">
+      <div class="item-menu">
+        <ul>
+          <li><a href="#">Вступить</a></li>
+          <li><a href="#">Взносы</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Изменение статуса</a></li>
+          <li><a href="#">Свидетельство о членстве</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Отчетность членов в СРО ААС</a></li>
+        </ul>
+      </div>
+      <div class="item-menu">
+        <a href="#" class="lastItems">
+          <img src="./assets/icons/plus.svg" alt="" />
+          <p>Вступить в СРО ААС</p>
         </a>
         <a href="#" class="lastItems">
-            <img src="./assets/icons/excerpt.svg" width="40px" height="40px" alt="">
-            <p>Получить выписку из Реестра</p>
+          <img
+            src="./assets/icons/card.svg"
+            width="40px"
+            height="40px"
+            alt=""
+          />
+          <p>Оплатить взносы</p>
         </a>
+        <a href="#" class="lastItems">
+          <img
+            src="./assets/icons/excerpt.svg"
+            width="40px"
+            height="40px"
+            alt=""
+          />
+          <p>Получить выписку из Реестра</p>
+        </a>
+      </div>
     </div>
-</div>
-<div class="mainItem-menu" id="fourth">
-    <div class="item-menu">
+    <div class="mainItem-menu" id="fourth">
+      <div class="item-menu">
         <ul>
-            <li><a href="#">Комплект документов по ВККР</a></li>
-            <li><a href="#">Уполномоченные эксперты</a></li>
-            <li><a href="#">Взнос</a></li>
+          <li><a href="#">Комплект документов по ВККР</a></li>
+          <li><a href="#">Уполномоченные эксперты</a></li>
+          <li><a href="#">Взнос</a></li>
         </ul>
         <ul>
-            <li><a href="#">Планы внешних проверок качества</a></li>
-            <li><a href="#">Результаты проверок</a></li>
-            <li><a href="#">Отчет ВККР</a></li>
+          <li><a href="#">Планы внешних проверок качества</a></li>
+          <li><a href="#">Результаты проверок</a></li>
+          <li><a href="#">Отчет ВККР</a></li>
         </ul>
         <ul>
-            <li><a href="#">Деятельность Федерального<br> казначейства</a></li>
+          <li>
+            <a href="#"
+              >Деятельность Федерального<br />
+              казначейства</a
+            >
+          </li>
         </ul>
+      </div>
     </div>
-</div>
-<div class="mainItem-menu" id="fifth">
-    <div class="item-menu">
+    <div class="mainItem-menu" id="fifth">
+      <div class="item-menu">
         <ul>
-            <li><a href="#">Аттестация аудиторов</a></li>
-            <li><a href="#">Стандарты</a></li>
-            <li><a href="#">class="thin">Стандарты аудита</a></li>
-            <li><a href="#">class="thin">Стандарты бухучета</a></li>
-            <li><a href="#">class="thin">Профессиональные стандарты</a></li>
-            <li><a href="#">Обязанности</a></li>
-            <li><a href="#">class="thin">Отчет в Минфин</a></li>
-            <li><a href="#">class="thin">Отчет в Федеральное казначейство</a></li>
-            <li><a href="#">class="thin">Раскрытие информации</a></li>
-            <li><a href="#">Дисциплинарное производство</a></li>
+          <li><a href="#">Аттестация аудиторов</a></li>
+          <li><a href="#">Стандарты</a></li>
+          <li><a href="#" class="thin">Стандарты аудита</a></li>
+          <li><a href="#" class="thin">Стандарты бухучета</a></li>
+          <li><a href="#" class="thin">Профессиональные стандарты</a></li>
+          <li><a href="#">Обязанности</a></li>
+          <li><a href="#" class="thin">Отчет в Минфин</a></li>
+          <li><a href="#" class="thin">Отчет в Федеральное казначейство</a></li>
+          <li><a href="#" class="thin">Раскрытие информации</a></li>
+          <li><a href="#">Дисциплинарное производство</a></li>
         </ul>
         <ul>
-            <li><a href="#">Законодательство</a></li>
-            <li><a href="#">Совет по аудиторской деятельности</a></li>
-            <li><a href="#">Методические материалы, разъяснения и рекомендации</a></li>
-            <li><a href="#">Противодействие коррупции и легализации (отмыванию) доходов</a></li>
-            <li><a href="#">Профилактика нарушений обязательных требований</a></li>
-            <li><a href="#">Судебная практика</a></li>
+          <li><a href="#">Законодательство</a></li>
+          <li><a href="#">Совет по аудиторской деятельности</a></li>
+          <li>
+            <a href="#">Методические материалы, разъяснения и рекомендации</a>
+          </li>
+          <li>
+            <a href="#"
+              >Противодействие коррупции и легализации (отмыванию) доходов</a
+            >
+          </li>
+          <li>
+            <a href="#">Профилактика нарушений обязательных требований</a>
+          </li>
+          <li><a href="#">Судебная практика</a></li>
         </ul>
         <ul>
-            <li><a href="#">Развитие аудиторской деятельности</a></li>
-            <li><a href="#">Обсуждаем проекты международных стандартов и документов</a></li>
-            <li><a href="#">Обсуждаем проекты нормативных актов</a></li>
-            <li><a href="#">МФБ (IFAC)</a></li>
-            <li><a href="#">Участие в общественных организациях</a></li>
+          <li><a href="#">Развитие аудиторской деятельности</a></li>
+          <li>
+            <a href="#"
+              >Обсуждаем проекты международных стандартов и документов</a
+            >
+          </li>
+          <li><a href="#">Обсуждаем проекты нормативных актов</a></li>
+          <li><a href="#">МФБ (IFAC)</a></li>
+          <li><a href="#">Участие в общественных организациях</a></li>
         </ul>
+      </div>
     </div>
-</div>
-<div class="mainItem-menu" id="sixth">
-    <div class="item-menu">
+    <div class="mainItem-menu" id="sixth">
+      <div class="item-menu">
         <ul>
-            <li><a href="#">Программы повышения квалификации 2021</a></li>
-            <li><a href="#">Программы повышения квалификации 2022</a></li>
-            <li><a href="#">Расписание курсов повышения квалификации аудиторов</a></li>
+          <li><a href="#">Программы повышения квалификации 2021</a></li>
+          <li><a href="#">Программы повышения квалификации 2022</a></li>
+          <li>
+            <a href="#">Расписание курсов повышения квалификации аудиторов</a>
+          </li>
         </ul>
         <ul>
-            <li><a href="#">Подтверждение повышения квалификации</a></li>
-            <li><a href="#">Аккредитация УМЦ</a></li>
-            <li><a href="#">Взносы УМЦ</a></li>
+          <li><a href="#">Подтверждение повышения квалификации</a></li>
+          <li><a href="#">Аккредитация УМЦ</a></li>
+          <li><a href="#">Взносы УМЦ</a></li>
         </ul>
         <ul>
-            <li><a href="#">Реестр учебно-методических центров</a></li>
+          <li><a href="#">Реестр учебно-методических центров</a></li>
         </ul>
+      </div>
     </div>
-</div>
-<div class="mainItem-menu" id="seventh">
-    <div class="item-menu">
+    <div class="mainItem-menu" id="seventh">
+      <div class="item-menu">
         <ul>
-            <li><a href="#">Новости СРО ААС</a></li>
-            <li><a href="#">Официальные новости</a></li>
-            <li><a href="#">class="thin">Проекты нормативных актов</a></li>
+          <li><a href="#">Новости СРО ААС</a></li>
+          <li><a href="#">Официальные новости</a></li>
+          <li><a href="#" class="thin">Проекты нормативных актов</a></li>
         </ul>
         <ul>
-            <li><a href="#">Региональные новости</a></li>
-            <li><a href="#">class="thin">Центральное отделение</a></li>
-            <li><a href="#">class="thin">Северо-Западное отделение</a></li>
-            <li><a href="#">class="thin">Приволжское отделение</a></li>
-            <li><a href="#">class="thin">Южное отделение</a></li>
-            <li><a href="#">class="thin">Волго-Донское отделение</a></li>
-            <li><a href="#">class="thin">Уральское отделение</a></li>
-            <li><a href="#">class="thin">Сибирское отделение</a></li>
-            <li><a href="#">class="thin">Дальневосточное отделение</a></li>
+          <li><a href="#">Региональные новости</a></li>
+          <li><a href="#" class="thin">Центральное отделение</a></li>
+          <li><a href="#" class="thin">Северо-Западное отделение</a></li>
+          <li><a href="#" class="thin">Приволжское отделение</a></li>
+          <li><a href="#" class="thin">Южное отделение</a></li>
+          <li><a href="#" class="thin">Волго-Донское отделение</a></li>
+          <li><a href="#" class="thin">Уральское отделение</a></li>
+          <li><a href="#" class="thin">Сибирское отделение</a></li>
+          <li><a href="#" class="thin">Дальневосточное отделение</a></li>
         </ul>
         <ul>
-            <li><a href="#">Публикации</a></li>
-            <li><a href="#">Вестник</a></li>
-            <li><a href="#">Журнал Аудит</a></li>
-            <li><a href="#">Международное сотрудничество</a></li>
-            <li><a href="#">Обсуждаем проекты международных стандартов</a></li>
-            <li><a href="#">Фотогалерея</a></li>
+          <li><a href="#">Публикации</a></li>
+          <li><a href="#">Вестник</a></li>
+          <li><a href="#">Журнал Аудит</a></li>
+          <li><a href="#">Международное сотрудничество</a></li>
+          <li><a href="#">Обсуждаем проекты международных стандартов</a></li>
+          <li><a href="#">Фотогалерея</a></li>
         </ul>
+      </div>
     </div>
-</div>
-<div class="mainItem-menu" id="eighth">
-    <div class="item-menu">
+    <div class="mainItem-menu" id="eighth">
+      <div class="item-menu">
         <ul>
-            <li><a href="#">Съезд</a></li>
-            <li><a href="#">Заседания</a></li>
-            <li><a href="#">Конференции</a></li>
-            <li><a href="#">Круглые столы</a></li>
-            <li><a href="#">Вебинары</a></li>
-            <li><a href="#">Семинары</a></li>
+          <li><a href="#">Съезд</a></li>
+          <li><a href="#">Заседания</a></li>
+          <li><a href="#">Конференции</a></li>
+          <li><a href="#">Круглые столы</a></li>
+          <li><a href="#">Вебинары</a></li>
+          <li><a href="#">Семинары</a></li>
         </ul>
         <ul>
-            <li><a href="#">Региональные мероприятия</a></li>
-            <li><a href="#">class="thin">Центральное отделение</a></li>
-            <li><a href="#">class="thin">Северо-Западное отделение</a></li>
-            <li><a href="#">class="thin">Приволжское отделение</a></li>
-            <li><a href="#">class="thin">Южное отделение</a></li>
-            <li><a href="#">class="thin">Волго-Донское отделение</a></li>
-            <li><a href="#">class="thin">Уральское отделение</a></li>
-            <li><a href="#">class="thin">Сибирское отделение</a></li>
-            <li><a href="#">class="thin">Дальневосточное отделение</a></li>
+          <li><a href="#">Региональные мероприятия</a></li>
+          <li><a href="#" class="thin">Центральное отделение</a></li>
+          <li><a href="#" class="thin">Северо-Западное отделение</a></li>
+          <li><a href="#" class="thin">Приволжское отделение</a></li>
+          <li><a href="#" class="thin">Южное отделение</a></li>
+          <li><a href="#" class="thin">Волго-Донское отделение</a></li>
+          <li><a href="#" class="thin">Уральское отделение</a></li>
+          <li><a href="#" class="thin">Сибирское отделение</a></li>
+          <li><a href="#" class="thin">Дальневосточное отделение</a></li>
         </ul>
+      </div>
     </div>
-</div>
-<section class="container menu-user">
-    <div class="userMenu">
-        <img src="./assets/images/contacts.png" alt="your browser doesn't support this type of image">
+    <section class="container menu-user">
+      <div class="userMenu">
+        <img
+          src="./assets/images/contacts.png"
+          alt="your browser doesn't support this type of image"
+        />
         <div class="userMenuText">
+          <h4>Контакты</h4>
+          <p>Контактная информация отделов СРО ААС</p>
+        </div>
+        <div class="userMenu">
+          <img
+            src="./assets/images/kvalifikatsiya.png"
+            alt="your browser doesn't support this type of image"
+          />
+          <div class="userMenuText">
             <h4>Контакты</h4>
             <p>Контактная информация отделов СРО ААС</p>
+          </div>
         </div>
-    <div class="userMenu">
-        <img src="./assets/images/kvalifikatsiya.png" alt="your browser doesn't support this type of image">
-        <div class="userMenuText">
+        <div class="userMenu">
+          <img
+            src="./assets/images/kontrol.png"
+            alt="your browser doesn't support this type of image"
+          />
+          <div class="userMenuText">
             <h4>Контакты</h4>
             <p>Контактная информация отделов СРО ААС</p>
+          </div>
         </div>
-    </div>
-    <div class="userMenu">
-        <img src="./assets/images/kontrol.png" alt="your browser doesn't support this type of image">
-        <div class="userMenuText">
+        <div class="userMenu">
+          <img
+            src="./assets/images/personal_room.png"
+            alt="your browser doesn't support this type of image"
+          />
+          <div class="userMenuText">
             <h4>Контакты</h4>
             <p>Контактная информация отделов СРО ААС</p>
+          </div>
         </div>
-    </div>
-    <div class="userMenu">
-        <img src="./assets/images/personal_room.png" alt="your browser doesn't support this type of image">
-        <div class="userMenuText">
-            <h4>Контакты</h4>
-            <p>Контактная информация отделов СРО ААС</p>
-        </div>
-    </div>
-    </div>
-</section>
-<section class="container cardCont">
-    <div class="card">
-        <h3>Работа с молодежью</h3>
-        <div class="card-bottom">
-                <p class="card-text"> 16 ноября 2021<br>СРО ААС и РУДН запускают серию лекций и мастер-классов «Школа молодого аудитора»</p>
-            <div class="card-img">
-                <img src="./assets/images/book.svg">
+      </div>
+    </section>
+    <section class="announcement">
+      <div class="container-fluid">
+        <div class="b-gallery ph-block ph-block--animated">
+          <div
+            class="
+              swiper-container
+              swiper-container-fade
+              swiper-container-initialized
+              swiper-container-horizontal
+            "
+          >
+            <div
+              class="swiper-wrapper"
+              style="transition: all 0ms ease 0s"
+              aria-live="polite"
+            >
+              <div
+                class="
+                  swiper-slide
+                  swiper-slide-duplicate
+                  swiper-slide-duplicate-active
+                  swiper-slide-prev
+                "
+                role="group"
+                aria-label="1 / 3"
+              >
+                <div
+                  class="b-gallery__img"
+                  style="
+                    background-image: url(https://auditor-sro.org/upload/medialibrary/eee/tmn_naber_pano_2015_mini.jpg);
+                  "
+                >
+                  <div class="b-gallery__heading">
+                    Всероссийская конференция
+                  </div>
+                  Развитие аудита как инструмента эффективности и безопасности
+                  бизнеса в эпоху цифровой экономики
+                  <br />
+                  10 декабря 2021, онлайн.
+                  <a
+                    class="btn btn-primary btn-lg"
+                    href="/events/konferentsiya/vserosnaucprakkonf101221/"
+                    >Принять участие</a
+                  >
+                </div>
+              </div>
+
+              <div
+                class="b-gallery__img"
+                style="
+                  background-image: url('/upload/medialibrary/eee/tmn_naber_pano_2015_mini.jpg');
+                "
+                title="Конференция Тюмень"
+              ></div>
+              <div class="b-gallery__slide-content">
+                <div class="b-gallery__heading">Всероссийская конференция</div>
+
+                Развитие аудита как инструмента эффективности и безопасности
+                бизнеса в эпоху цифровой экономики
+                <br />
+                10 декабря 2021, онлайн.
+                <hr class="hr--lg" />
+
+                <a
+                  class="btn btn-primary btn-lg"
+                  href="/events/konferentsiya/vserosnaucprakkonf101221/"
+                  >Принять участие</a
+                >
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <div class="card">
-        hi there
-    </div>
-    <div class="card">
-        hi there
-    </div>
-</section>
-<script src="./script/script.js"></script>
-</body>
+      </div>
+    </section>
+    <script src="./script/script.js"></script>
+  </body>
 </html>

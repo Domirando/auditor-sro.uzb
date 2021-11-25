@@ -1,15 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
-@import url('./navbar.css');
-@import url('./menu-user.css');
-@import url('./card.css');
-*{
-    padding: 0;
-    margin: 0%;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300&display=swap");
+@import url("./navbar.css");
+@import url("./menu-user.css");
+@import url("./card.css");
+@import url("./announcement.css");
+
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
 }
-body{
-    background-color: #FAFAFA;
-    display: flex;
-    flex-flow: column wrap;
-    font-family: 'Roboto', sans-serif;
+body {
+  background-color: #fafafa;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: "Roboto", sans-serif;
+}
+.b24-form #b24-b24-site-button-form-5,
+.b24-form #b24-b24-site-button-form-5.b24-form-dark {
+  --b24-font-family: "По умолчанию", var(--b24-font-family-default);
+  --b24-primary-color: rgba(255, 136, 0, 1);
+  --b24-primary-text-color: rgba(255, 255, 255, 1);
+  --b24-text-color: rgba(0, 0, 0, 1);
+  --b24-background-color: rgba(255, 255, 255, 1);
+  --b24-field-border-color: rgba(0, 0, 0, 0);
+  --b24-field-background-color: rgba(0, 0, 0, 0.09);
+  --b24-field-focus-background-color: rgba(255, 255, 255, 1);
+  --b24-popup-background-color: rgba(255, 255, 255, 1);
+  --b24-primary-hover-color: rgba(255, 136, 0, 0.7);
+  --b24-primary-active-color: rgba(255, 136, 0, 0.7);
 }
