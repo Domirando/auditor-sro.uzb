@@ -25,7 +25,7 @@
   padding: 0;
   z-index: 1;
 }
-.swiper-slide, 
+.swiper-slide,
 .swiper-wrapper {
   transform: translate3d(0px, 0, 0);
 }
@@ -86,7 +86,7 @@
   max-width: 500px;
   transform: translateX(50px);
   -webkit-transform: translateX(50px);
-  opacity: 0;
+  opacity: 100;
   z-index: 10;
 }
 .swiper-container-initialized .b-gallery__slide-content {
