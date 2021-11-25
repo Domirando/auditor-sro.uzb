@@ -25,16 +25,16 @@
         <hr />
         <nav>
           <ul class="right-side">
-            <li onmouseover="showItemMenu('mainItem-1')">СРО ААС</li>
-            <li onmouseover="showItemMenu('mainItem-2')">Реестры</li>
-            <li onmouseover="showItemMenu('mainItem-3')">Членство</li>
-            <li onmouseover="showItemMenu('mainItem-4')">Контроль качества</li>
-            <li onmouseover="showItemMenu('mainItem-5')">Аудиторам</li>
-            <li onmouseover="showItemMenu('mainItem-6')">
+            <li onmouseleave="hideItemMenu('mainItem-1')" onmouseenter="showItemMenu('mainItem-1')">СРО ААС</li>
+            <li onmouseleave="hideItemMenu('mainItem-2')" onmouseenter="showItemMenu('mainItem-2')">Реестры</li>
+            <li onmouseleave="hideItemMenu('mainItem-3')" onmouseenter="showItemMenu('mainItem-3')">Членство</li>
+            <li onmouseleave="hideItemMenu('mainItem-4')" onmouseenter="showItemMenu('mainItem-4')">Контроль качества</li>
+            <li onmouseleave="hideItemMenu('mainItem-5')" onmouseenter="showItemMenu('mainItem-5')">Аудиторам</li>
+            <li onmouseleave="hideItemMenu('mainItem-6')" onmouseenter="showItemMenu('mainItem-6')">
               Повышение квалификации
             </li>
-            <li onmouseover="showItemMenu('mainItem-7')">Пресс-Центр</li>
-            <li onmouseover="showItemMenu('mainItem-8')">Мероприятия</li>
+            <li onmouseleave="hideItemMenu('mainItem-7')" onmouseenter="showItemMenu('mainItem-7')">Пресс-Центр</li>
+            <li onmouseleave="hideItemMenu('mainItem-8')" onmouseenter="showItemMenu('mainItem-8')">Мероприятия</li>
           </ul>
           <div class="left-side">
             <img src="./assets/icons/search.svg" alt="search" />
@@ -339,7 +339,7 @@
       </div>
     </div>
     </header>
-    
+
     <main class="news container">
       <!-- --------------------------- Main - 2 sections about news ----------------------- -->
       <div class="announcements">

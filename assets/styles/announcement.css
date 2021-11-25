@@ -55,7 +55,9 @@
   position: relative;
   transition-property: transform;
 }
-.b-gallery__img:before {
+
+
+.b-gallery__img::before {
   content: "";
   display: block;
   background-color: #f2762e;
@@ -67,8 +69,7 @@
   height: 750px;
   opacity: 0.5;
   transition: all 0.7s ease-out;
-  -webkit-transition: all 0.7s ease-out;
-  z-index: 1;
+  z-index: 100;
 }
 .b-gallery__img {
   height: 420px;
