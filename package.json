@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/MaisieDev/auditor-sro.org#readme",
   "dependencies": {
+    "logrocket": "^2.1.2",
     "prettier": "^2.4.1"
   }
 }
