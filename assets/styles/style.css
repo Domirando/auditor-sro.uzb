@@ -3,6 +3,7 @@
 @import url("./menu-user.css");
 @import url("./card.css");
 @import url("./announcement.css");
+@import url("./num_datas.css");
 
 * {
   padding: 0;

@@ -1,0 +1,11 @@
+.num_datas{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+.num_datas p{
+    font-size: 13px;
+    width: 200px;
+}
