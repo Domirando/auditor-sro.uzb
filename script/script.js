@@ -4,13 +4,13 @@ function mouseEnter(el){
   // el.preventDefault();
   itemsMenu[i].style.display = 'flex';
 }
-function mouseEnter(el){
+function mouseLeave(el){
   // el.preventDefault();
   itemsMenu[i].style.display = 'none';
 }
-for(let i = 0; i<=menuContainers.length-1; i++){
+for(var i = 0; i<=menuContainers.length-1; i++){
   menuContainers[i].addEventListener("onmouseenter", mouseEnter(i));
-    menuContainers[i].addEventListener("onmouseleave", mouseLeave(i));
+  menuContainers[i].addEventListener("onmouseleave", mouseLeave(i));
 }
 
 // function showItemMenu(item) {
