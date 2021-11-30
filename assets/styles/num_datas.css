@@ -2,8 +2,8 @@
     display: flex;
     column-gap: 20px;
     justify-content: center;
-    /* align-items: center; */
     text-align: center;
+    padding-bottom: 20px;
 }
 .num_datas p{
     font-size: 13px;
