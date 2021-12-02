@@ -3,15 +3,20 @@ let menuContainers = document.querySelectorAll('.menuContainers');
 let itemsMenu = document.querySelectorAll('.itemsMenu');
 let menuCond = false;
 function mouseEnter(el){
-  // el.preventDefault();
-  itemsMenu[i].style.display = 'flex';
+  alert(el)
+  itemsMenu[i].classList.remove('none')
+  itemsMenu[i].classList.add('flex');
   menuCond = true;
+  // el.preventDefault();
 }
 
 function mouseLeave(el){
   if (menuCond) {  
-    itemsMenu[i].style.display = 'none';
+    alert("deleting: flex")
+    itemsMenu[i].classList.remove('flex')
+    itemsMenu[i].classList.add('none');
     menuCond = false;
+    // el.preventDefault();
   }   
 }
 
