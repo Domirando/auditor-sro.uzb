@@ -1,14 +1,20 @@
 
 let menuContainers = document.querySelectorAll('.menuContainers');
 let itemsMenu = document.querySelectorAll('.itemsMenu');
+let menuCond = false;
 function mouseEnter(el){
   // el.preventDefault();
   itemsMenu[i].style.display = 'flex';
+  menuCond = true;
 }
+
 function mouseLeave(el){
-  // el.preventDefault();
-  itemsMenu[i].style.display = 'none';
+  if (menuCond) {  
+    itemsMenu[i].style.display = 'none';
+    menuCond = false;
+  }   
 }
+
 for(var i = 0; i<=menuContainers.length-1; i++){
   menuContainers[i].addEventListener("onmouseenter", mouseEnter(i));
   menuContainers[i].addEventListener("onmouseleave", mouseLeave(i));
