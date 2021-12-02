@@ -72,8 +72,10 @@ li {
   text-align: left;
 }
 .itemsMenu {
-  display: none;
   flex-flow: column wrap;
+}
+.none{
+  display: none;
 }
 .itemsMenu .item-menu{
   column-gap: 60px;
