@@ -9,14 +9,16 @@
 }
 .news_menu p:hover{
     cursor: pointer;
-    padding-bottom: 10px;
+    /* margin-bottom: 10px; */
     border-bottom: 1px  solid #000; 
 }
 .news-content{
     display: flex;
     flex-flow: row wrap;
+    justify-content:space-between;
     column-gap: 10px;
 }
-.news-content .news-text p{
-    flex-basis: 1/3; 
-}
+.news-content .news-text{
+    width: 30%;
+    /* flex-basis: auto; */
+} 
