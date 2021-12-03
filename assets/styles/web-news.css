@@ -12,3 +12,11 @@
     padding-bottom: 10px;
     border-bottom: 1px  solid #000; 
 }
+.news-content{
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 10px;
+}
+.news-content .news-text p{
+    flex-basis: 1/3; 
+}
