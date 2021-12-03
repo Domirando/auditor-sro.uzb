@@ -19,6 +19,6 @@
     column-gap: 10px;
 }
 .news-content .news-text{
-    width: 30%;
-    /* flex-basis: auto; */
+    /* width: 30%; */
+    flex-basis: 1/3;
 } 
