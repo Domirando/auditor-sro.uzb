@@ -15,9 +15,17 @@
 .news-content{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content:space-between; */
-    column-gap: 30px;
+    column-gap: 20px;
 }
 .news-content .news-text{
     flex: 1 0 50px;
 } 
+.news-text p:nth-of-type(2){
+    /* font-size: calc(12px/14px); */
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #9b9b9b;
+
+}
