@@ -9,4 +9,6 @@
 }
 .news_menu p:hover{
     cursor: pointer;
+    padding-bottom: 10px;
+    border-bottom: 1px  solid #000; 
 }
