@@ -1,0 +1,16 @@
+.event{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.cards{
+    display: flex;
+    column-gap: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.event .event-cards .cards .card .heading{
+    background-image: url("https://auditor-sro.org/upload/medialibrary/c18/vebinar1.jpg");
+}
