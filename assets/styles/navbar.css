@@ -99,7 +99,7 @@ li {
   border-radius: 0px 0px 8px 8px;
   justify-items: center;
   align-content: center;
-  margin: 0px 40px;
+  margin: 0 40px;
 }
 .item-menu > ul {
   list-style: none;
