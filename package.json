@@ -21,5 +21,9 @@
   "dependencies": {
     "logrocket": "^2.1.2",
     "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
   }
 }
