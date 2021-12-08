@@ -7,10 +7,11 @@
     display: flex;
     column-gap: 15px;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 .event-cards .cards .card{
     display: flex;
-    width: 25%;
+    width: 24%;
     flex-direction: column;
     padding: 0;
 }

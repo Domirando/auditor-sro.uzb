@@ -1,4 +1,3 @@
-const greeting = () => {
-    console.log("hellooooo!")
+export function myFunc () {
+    alert('helloooooo')
 }
-

@@ -1,4 +1,4 @@
-import m from './data'; // note that we have the freedom to use import m instead of import k, because k was default export
+import m from "./data"; // note that we have the freedom to use import m instead of import k, because k was default export
 console.log(m);
 // import { add, subtract } from './data';
 //
