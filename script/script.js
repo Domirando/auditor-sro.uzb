@@ -1,3 +1,4 @@
+import greeting from 'events-section';
 let menuContainers = document.querySelectorAll('.menuContainers');
 var itemsMenu = document.querySelectorAll('.itemsMenu');
 var menuCond = false;

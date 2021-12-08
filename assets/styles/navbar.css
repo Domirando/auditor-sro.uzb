@@ -18,7 +18,7 @@
   text-decoration: rgb(59, 59, 59);
   text-align: left;
 }
-.title > button {
+.orgBg_btn {
   background-color: rgb(255, 147, 0);
   color: #ffffff;
   font-size: 12px;
@@ -30,7 +30,7 @@
   border-radius: 5px;
   padding: 0px 30px;
 }
-button:hover {
+.orgBg_btn:hover {
   cursor: pointer;
 }
 .container {

@@ -3,14 +3,24 @@
     flex-direction: column;
     row-gap: 15px;
 }
-.cards{
+.event-cards .cards{
     display: flex;
     column-gap: 15px;
+    flex-flow: row wrap;
 }
-.card{
+.event-cards .cards .card{
     display: flex;
+    width: 25%;
     flex-direction: column;
+    padding: 0;
 }
 .event .event-cards .cards .card .heading{
+    height: 150px;
+    width: auto;
+    background-size: cover;
     background-image: url("https://auditor-sro.org/upload/medialibrary/c18/vebinar1.jpg");
+}
+.event-cards .cards .card .text,
+.event-cards .cards .card .footer{
+    padding: 20px;
 }
