@@ -1,0 +1,31 @@
+.partners{
+    padding: 20px 40px;
+}
+.partners h2{
+    font-size: 32px;
+    color: #3b3b3b;
+    font-weight: 700;
+}
+.partners .logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    margin: 20px 0;
+}
+
+.img-partner{
+    border: 1px solid #dcdcdc;
+    width: 24%;
+    height: 120px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-partner img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 50%;
+}

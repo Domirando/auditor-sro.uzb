@@ -16,9 +16,7 @@ console.log(eventCards);
 let eventCardsContainer = document.querySelectorAll('.cards');
 for (let i = 0; i <= eventCards.length; i++){
     let type = eventCardsContainer.indexOf(eventCardsContainer[i].classList.contains('conference'));
-    if (eventCards[i].classList.contains('conference') !== -1 && type.onclick){
+    if ((eventCards[i].classList.contains('conference') !== -1) && type.onclick){
         type.innerHTML+=eventCards[i];
     }
 }
-// import {myFunc} from './events-section';
-// myFunc();
