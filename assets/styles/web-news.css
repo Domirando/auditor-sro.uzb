@@ -7,6 +7,16 @@
     display: flex;
     column-gap: 30px;
 }
+.news-title{
+    color: #3b3b3b;
+    font-size: 32px;
+    font-weight: 700;
+}
+.news_menu p{
+    color: #6f6f6f;
+    font-size: 14px;
+    font-weight: 400
+}
 .news_menu p:hover{
     cursor: pointer;
     /* margin-bottom: 10px; */
