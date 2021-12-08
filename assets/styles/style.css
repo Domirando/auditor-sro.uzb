@@ -5,6 +5,7 @@
 @import url("./announcement.css");
 @import url("./num_datas.css");
 @import url("./web-news.css");
+@import url("./tags.css");
 
 * {
   padding: 0;

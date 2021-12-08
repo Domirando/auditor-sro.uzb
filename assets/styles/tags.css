@@ -1,0 +1,20 @@
+.tags h2{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.tag-texts{
+    margin: 10px 0;
+    display: flex;
+    column-gap: 15px;
+}
+.tag-text{
+    color: #726a6e;
+    background-color: #f6f6f6;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.tag-btn{
+    border: none;
+    margin-top: 20px;
+}
